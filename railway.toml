@@ -2,7 +2,10 @@
 builder = "nixpacks"
 
 [build.nixpacksPlan.phases.setup]
-nixPkgs = ["jdk17", "maven"]
+nixPkgs = ["jdk17_headless", "maven"]
+
+[build.nixpacksPlan.phases.build]
+cmds = ["mvn -B -DskipTests clean package"]
 
 [deploy]
 startCommand = "java -jar target/*.jar"
