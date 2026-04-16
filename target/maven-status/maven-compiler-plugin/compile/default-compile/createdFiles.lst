@@ -1,0 +1,8 @@
+com/app/clientes/controller/ClienteController.class
+com/app/clientes/dto/ClienteDTO.class
+com/app/clientes/exception/GlobalExceptionHandler.class
+com/app/clientes/service/ClienteService.class
+com/app/clientes/model/Cliente.class
+com/app/clientes/ClienteManagerApplication.class
+com/app/clientes/repository/ClienteRepository.class
+com/app/clientes/exception/ErroResponse.class

@@ -1,0 +1,8 @@
+/home/keila/Downloads/cliente-manager/src/main/java/com/app/clientes/ClienteManagerApplication.java
+/home/keila/Downloads/cliente-manager/src/main/java/com/app/clientes/exception/GlobalExceptionHandler.java
+/home/keila/Downloads/cliente-manager/src/main/java/com/app/clientes/exception/ErroResponse.java
+/home/keila/Downloads/cliente-manager/src/main/java/com/app/clientes/controller/ClienteController.java
+/home/keila/Downloads/cliente-manager/src/main/java/com/app/clientes/dto/ClienteDTO.java
+/home/keila/Downloads/cliente-manager/src/main/java/com/app/clientes/model/Cliente.java
+/home/keila/Downloads/cliente-manager/src/main/java/com/app/clientes/service/ClienteService.java
+/home/keila/Downloads/cliente-manager/src/main/java/com/app/clientes/repository/ClienteRepository.java
