@@ -1,25 +1,66 @@
+# 🚀 Cliente Manager API
 
-# Projeto de Cadastro de Clientes
+API REST desenvolvida com Java + Spring Boot para gerenciamento de clientes.
 
-Projeto simples que criei para praticar desenvolvimento de APIs com Spring Boot.
+## 📌 Sobre o projeto
 
-## Tecnologias
-- Java
+Este projeto foi criado com o objetivo de praticar o desenvolvimento de APIs REST, incluindo operações completas de CRUD (Create, Read, Update, Delete).
+
+A aplicação permite cadastrar, listar, atualizar e remover clientes de forma simples e eficiente.
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- Java 21
 - Spring Boot
-- JPA
-- H2
+- Spring Data JPA
+- H2 Database
+- Maven
 
-## Como rodar
+---
 
-mvn spring-boot:run
+## 📂 Funcionalidades
 
-## Endpoints
+✔️ Cadastrar cliente  
+✔️ Listar todos os clientes  
+✔️ Buscar cliente por ID  
+✔️ Atualizar cliente  
+✔️ Remover cliente  
 
-POST /clientes  
-GET /clientes  
-PUT /clientes/{id}  
+---
+
+## 🔗 Endpoints da API
+
+### 📍 Listar clientes
+```http
+GET /clientes
+GET /clientes/{id}
+POST /clientes
+PUT /clientes/{id}
 DELETE /clientes/{id}
 
-## Observações
-- Não permite email duplicado
-- Campos nome e email são obrigatórios
+# Clonar repositório
+git clone https://github.com/SEU-USUARIO/cliente-manager-api.git
+
+# Entrar na pasta
+cd cliente-manager-api
+
+# Rodar aplicação
+./mvnw spring-boot:run
+
+🧪 Testes
+
+Você pode testar os endpoints usando:
+
+Postman
+Insomnia
+
+📌 Observações
+
+Este projeto faz parte do meu portfólio como desenvolvedora, com foco em backend e APIs REST.
+
+
+👩‍💻 Autora
+
+Feito por Keila Nunes 💙
